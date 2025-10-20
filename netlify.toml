@@ -1,0 +1,4 @@
+[build]
+base = "ollie/"
+publish = "build"
+command = "npm run build"
