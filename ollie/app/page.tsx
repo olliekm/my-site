@@ -20,7 +20,7 @@ export default function Home() {
             I like building scalable systems for inference. I&apos;m currently interested in building distributed systems for large language models and RL agents. 
           </p>
           <p className="font-serif text-md">
-            Rock climber who grade chases on the <a href="https://boardstalker.com/climber/14b441fd-0db8-4bd6-9418-24b48a583b6a" target="_blank" rel="noopener noreferrer" className="underline">moonboard 🌙</a> &#40;sent 5 V7s so far&#41; in my free time. Currently climbing around V6-7. Goal of climbing V10 before I graduate.
+            Rock climber who grade chases on the <a href="https://boardstalker.com/climber/14b441fd-0db8-4bd6-9418-24b48a583b6a" target="_blank" rel="noopener noreferrer" className="underline">moonboard 🌙</a> &#40;sent 7 V7s so far&#41; in my free time. Currently climbing around V6-7. Goal of climbing V10 before I graduate.
           </p>
 
           <p>
