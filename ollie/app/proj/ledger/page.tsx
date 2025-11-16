@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Experience from "@/components/Experience";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="w-xl h-full px-6 space-y-8">
         {/* Title + description */}
         <div className="w-full flex sm:pt-20 pt-8 flex-col space-y-4">
+            <Link href={"/"}>&#8592; Back</Link>
           <h1 className="text-3xl font-serif">Realtime Ledger API</h1>
           <p className="italic">Real-time double-entry ledger backend with strict consistency, idempotent writes, and streaming balance updates.</p>
           <a href="https://github.com/olliekm/realtime-ledger" target="_blank" rel="noopener noreferrer" className="underline">Project Link</a>

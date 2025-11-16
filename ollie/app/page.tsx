@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Experience from "@/components/Experience";
+import Project from "@/components/Project";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,9 +22,9 @@ export default function Home() {
             I like building scalable systems for inference. I&apos;m currently interested in building distributed systems for large language models and RL agents. 
           </p>
           <p className="font-serif text-md">
-            Rock climber who grade chases on the <a href="https://boardstalker.com/climber/14b441fd-0db8-4bd6-9418-24b48a583b6a" target="_blank" rel="noopener noreferrer" className="underline">moonboard 🌙</a> &#40;sent 7 V7s so far&#41; in my free time. Currently climbing around V6-7. Goal of climbing V10 before I graduate.
+            Rock climber who grade chases on the <a href="https://boardstalker.com/climber/14b441fd-0db8-4bd6-9418-24b48a583b6a" target="_blank" rel="noopener noreferrer" className="underline">moonboard 🌙</a> &#40;sent 7 V7s so far&#41; in my free time. Currently climbing around V7 level. Goal of climbing V10 before I graduate.
           </p>
-
+          <Link href={'/climbing'} className="italic text-sm">video of me climbing 🧗</Link>
           <p>
           email me: oliverkwunmorfitt[at]gmail[dot]com
           </p>
@@ -66,8 +68,17 @@ export default function Home() {
           <div className="">
             <h2 className="text-md italic">Projects</h2>
           </div>
+          <Project 
+            title="Realtime Ledger API" 
+            technologies="go, gorilla/mux, uuid, docker, REST"
+            description="
+            Minimal double-entry ledger API in Go with balance invariants and a pluggable store. The current build ships an in-memory store and REST endpoints for accounts, balances, journals, and entries.
+            " 
+            year="2025" logo="/utmistlogo.svg" 
+            link="/proj/ledger"
+          />
 
-          <p>Thinking of building an NLP calender app. Mapping out system architecture now.</p>
+          <p>Next project ideas include: distributed hyperparamter tuning system, strict JSON LLM enforcer SDK</p>
           <p>Currently projecting climbs on  moonboard, doing school, and <a href="https://leetcode.com/u/olliekm/" target="_blank" rel="noopener noreferrer" className="underline">leetcoding</a>.</p>
 
         </div>
