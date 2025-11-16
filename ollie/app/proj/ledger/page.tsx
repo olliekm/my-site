@@ -17,19 +17,25 @@ export default function Home() {
           </div> */}
         </div>
         <div className="space-y-4">
-            <p>
-                I&apos;m building <span className="italic">chrollo</span> to simplify the process of hyperparameter tuning for machine learning models. It allows users to easily distribute their hyperparameter search across multiple machines, making it faster and more efficient.
-            </p>
+          <p>
+            <span className="italic">realtime-ledger</span> is a minimal, high‑integrity double‑entry ledger API written in Go. It focuses on correctness, balance invariants, and a clean domain model while keeping the overall system small and easy to reason about.
+          </p>
 
-            <div>
-                Key features of chrollo include:
-                <ul className="list-disc list-inside pl-4">
-                    <li>Easy setup and configuration</li>
-                    <li>Support for various search algorithms (grid search, random search, Bayesian optimization)</li>
-                    <li>Real-time monitoring of experiments</li>
-                    <li>Scalability to handle large hyperparameter spaces</li>
-                </ul>
-            </div>
+          <div>
+            Key features include:
+            <ul className="list-disc list-inside pl-4">
+              <li>Strict double‑entry validation (postings must balance per currency)</li>
+              <li>Balance safety checks preventing negative account states</li>
+              <li>Typed <code>Money</code> model with currency‑aware amounts</li>
+              <li>Pluggable storage layer (ships with an in‑memory store)</li>
+              <li>Lightweight REST API for accounts, balances, journals, and entries</li>
+              <li>Simple static‑token auth for quick testing</li>
+            </ul>
+          </div>
+
+          <p>
+            The goal of the project is to provide a clean reference implementation of a ledger core—small enough to understand end‑to‑end, but strict enough to serve as the foundation for more advanced financial systems. A Postgres‑backed store, idempotency keys, batching semantics, and full OpenAPI coverage are planned extensions.
+          </p>
         </div>
 
         <footer className="py-4 text-sm flex justify-between">
