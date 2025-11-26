@@ -69,6 +69,15 @@ export default function Home() {
             <h2 className="text-md italic">Projects</h2>
           </div>
           <Project 
+            title="parsec: Structured LLM Output Enforcer" 
+            technologies="python, pydantic"
+            description="
+            Parsec is a Python SDK that ensures LLM outputs conform to specified structures using Pydantic models. It simplifies prompt engineering by generating structured prompts and validating responses, enhancing reliability in applications like chatbots and data extraction.
+            " 
+            year="2025" logo="/utmistlogo.svg" 
+            link="/proj/parsec"
+          />
+          <Project 
             title="Realtime Ledger API" 
             technologies="go, gorilla/mux, uuid, docker, REST"
             description="
@@ -77,6 +86,7 @@ export default function Home() {
             year="2025" logo="/utmistlogo.svg" 
             link="/proj/ledger"
           />
+
 
           <p>Next project ideas include: distributed hyperparamter tuning system, strict JSON LLM enforcer SDK</p>
           <p>Currently projecting climbs on  moonboard, doing school, and <a href="https://leetcode.com/u/olliekm/" target="_blank" rel="noopener noreferrer" className="underline">leetcoding</a>.</p>
