@@ -88,7 +88,7 @@ export default function Home() {
           />
 
 
-          <p>Next project ideas include: distributed hyperparamter tuning system, strict JSON LLM enforcer SDK</p>
+          <p>Next project ideas include: building out parsec</p>
           <p>Currently projecting climbs on  moonboard, doing school, and <a href="https://leetcode.com/u/olliekm/" target="_blank" rel="noopener noreferrer" className="underline">leetcoding</a>.</p>
 
         </div>
