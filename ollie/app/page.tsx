@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Experience from "@/components/Experience";
 import Project from "@/components/Project";
 import Link from "next/link";
@@ -28,6 +27,18 @@ export default function Home() {
           <p>
           email me: oliverkwunmorfitt[at]gmail[dot]com
           </p>
+          <a
+            href="https://parsec.olliekm.com"
+            target="_blank"
+            className="group relative block px-8 py-3 rounded-2xl overflow-hidden w-fit"
+            style={{
+              backgroundImage: `url('/grad.jpg')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }}
+          >
+            <span className="relative z-10 text-white font-medium font-sans">Check out <span className="font-bold group-hover:underline">parsec</span></span>
+          </a>
         </div>
 
         {/* Experience */}
