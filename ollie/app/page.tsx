@@ -30,12 +30,7 @@ export default function Home() {
           <a
             href="https://parsec.olliekm.com"
             target="_blank"
-            className="group relative block px-8 py-3 rounded-2xl overflow-hidden w-fit"
-            style={{
-              backgroundImage: `url('/grad.jpg')`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
+            className="group relative block px-8 py-3 rounded-2xl overflow-hidden w-fit bg-black"
           >
             <span className="relative z-10 text-white font-medium font-sans">Check out <span className="font-bold group-hover:underline">parsec</span></span>
           </a>
@@ -79,6 +74,15 @@ export default function Home() {
           <div className="">
             <h2 className="text-md italic">Projects</h2>
           </div>
+          <Project 
+            title="Quill: SQL optimizer using LLMs" 
+            technologies="python, sqllite, openai"
+            description="
+            Quill is a SQL query optimizer that leverages ReST^EM to deliver frontier model performance on query optimization tasks. By integrating LLMs into the optimization with QWEN-7B, Quill achieves significant latency reductions while maintaining accuracy.
+            " 
+            year="2025" logo="/utmistlogo.svg" 
+            link="/proj/quill"
+          />
           <Project 
             title="parsec: Structured LLM Output Enforcer" 
             technologies="python, pydantic"
