@@ -21,7 +21,7 @@ export default function Home() {
             I like building scalable systems for inference. I&apos;m currently interested in building distributed systems for large language models and RL agents. 
           </p>
           <p className="font-serif text-md">
-            Rock climber who grade chases on the <a href="https://boardstalker.com/climber/14b441fd-0db8-4bd6-9418-24b48a583b6a" target="_blank" rel="noopener noreferrer" className="underline">moonboard 🌙</a> &#40;sent 7 V7s so far&#41; in my free time. Currently climbing around V7 level. Goal of climbing V10 before I graduate.
+            Rock climber who grade chases on the <a href="https://boardstalker.com/climber/14b441fd-0db8-4bd6-9418-24b48a583b6a" target="_blank" rel="noopener noreferrer" className="underline">moonboard 🌙</a> &#40;sent 3 V8s so far&#41; in my free time. Currently climbing around V8 level. Goal of climbing V10 before I graduate.
           </p>
           <Link href={'/climbing'} className="italic text-sm">video of me climbing 🧗</Link>
           <p>
@@ -74,6 +74,15 @@ export default function Home() {
           <div className="">
             <h2 className="text-md italic">Projects</h2>
           </div>
+          <Project
+            title="Mobius: Smart Notetaking App"
+            technologies="svelte, typescript, rust, tauri"
+            description="
+            An open-source notetaking application that uses LLMs to reduce organizational overhead. Features include automated note connections, topic clustering, and intelligent content parsing—all while maintaining a minimalist interface where AI augments the experience in the background.
+            "
+            year="2026" logo="/utmistlogo.svg"
+            link="/proj/mobius"
+          />
           <Project 
             title="Quill: SQL optimizer using LLMs" 
             technologies="python, sqllite, openai"
@@ -92,15 +101,16 @@ export default function Home() {
             year="2025" logo="/utmistlogo.svg" 
             link="/proj/parsec"
           />
-          <Project 
-            title="Realtime Ledger API" 
+          <Project
+            title="Realtime Ledger API"
             technologies="go, gorilla/mux, uuid, docker, REST"
             description="
             Minimal double-entry ledger API in Go with balance invariants and a pluggable store. The current build ships an in-memory store and REST endpoints for accounts, balances, journals, and entries.
-            " 
-            year="2025" logo="/utmistlogo.svg" 
+            "
+            year="2025" logo="/utmistlogo.svg"
             link="/proj/ledger"
           />
+
 
 
           <p>Next project ideas include: building out parsec</p>
