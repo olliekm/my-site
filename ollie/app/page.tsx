@@ -110,6 +110,15 @@ export default function Home() {
             year="2025" logo="/utmistlogo.svg"
             link="/proj/ledger"
           />
+          <Project
+            title="CommonGrounds: Student Discovery Platform"
+            technologies="next.js, supabase, fastapi, gemini"
+            description="
+            A swipe-based discovery platform for students built at UofT Hacks 13. Uses AI-powered embeddings to personalize recommendations as users explore opportunities across two modes: Matcha Mode for hobbies and Coffee Mode for career interests.
+            "
+            year="2026" logo="/utmistlogo.svg"
+            link="/proj/commongrounds"
+          />
 
 
 
