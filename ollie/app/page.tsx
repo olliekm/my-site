@@ -75,6 +75,15 @@ export default function Home() {
             <h2 className="text-md italic">Projects</h2>
           </div>
           <Project
+            title="Rosetta: NER Model Benchmarking Framework"
+            technologies="python, pytorch, transformers, huggingface"
+            description="
+            ML experimentation infrastructure for Named Entity Recognition on job postings. Benchmarked 8+ models with automated eval harness measuring F1, per-class precision/recall, overfitting gap, inference latency, and confusion patterns. Achieved 51% F1 with distilbert-base-uncased at 3.47ms inference latency.
+            "
+            year="2025" logo="/utmistlogo.svg"
+            link="/proj/rosetta"
+          />
+          <Project
             title="Mobius: Smart Notetaking App"
             technologies="svelte, typescript, rust, tauri"
             description="
@@ -119,6 +128,7 @@ export default function Home() {
             year="2026" logo="/utmistlogo.svg"
             link="/proj/commongrounds"
           />
+
 
 
 
