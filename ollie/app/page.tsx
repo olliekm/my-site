@@ -48,6 +48,14 @@ export default function Home() {
                   />
                 <Experience
                   title="Software Engineer Intern"
+                  company="NationGraph"
+                  technologies="probably python"
+                  description=""
+                  startDate="incoming winter 2027" endDate="present" logo="/nationgraph_logo.jpeg"
+                  link="https://www.nationgraph.com/"
+                  />
+                <Experience
+                  title="Software Engineer Intern"
                   company="propertysearchgpt.ai"
                   technologies="python, fastapi, react, modelling"
                   description="Building out ELT pipeline, improving pricing model accuracy, and improving backend performance."
