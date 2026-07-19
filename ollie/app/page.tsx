@@ -27,6 +27,7 @@ export default function Home() {
               Rock climber who grade chases on the moonboard 🌙 in my free time. Currently climbing around V9 level. Goal of climbing V10 before I graduate.
             </p>
             <Link href={'/climbing'} className="italic text-sm">video of me climbing 🧗</Link>
+            <Link href={'/notes'} className="italic text-sm">notes</Link>
             <p>
             email me: oliverkwunmorfitt[at]gmail[dot]com
             </p>
