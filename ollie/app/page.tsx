@@ -161,11 +161,15 @@ export default function Home() {
         <footer className="py-4 text-sm flex justify-between items-center">
           <p>Oliver Kwun-Morfitt</p>
           <div className="flex items-center gap-2">
-            <a href="https://uoftwebring.com/redirect?nav=prev&id=50" aria-label="Previous site in UofT Webring">←</a>
-            <a href="https://uoftwebring.com" target="_blank" rel="noopener noreferrer">
-              <Image src="https://uoftwebring.com/ring_logo.svg" alt="UofT Webring" width={24} height={24} className="w-6 h-auto" unoptimized />
-            </a>
-            <a href="https://uoftwebring.com/redirect?nav=next&id=50" aria-label="Next site in UofT Webring">→</a>
+              <a href='https://uoftwebring.com/redirect?nav=prev&id=50' aria-label='Previous site in UofT Webring'>←</a>
+              <a href='https://uoftwebring.com' target='_blank'>
+                  <img
+                      src='https://uoftwebring.com/ring_logo_black.svg'
+                      alt='UofT Webring'
+                      className="w-6 h-auto"
+                  />
+              </a>
+              <a href='https://uoftwebring.com/redirect?nav=next&id=50' aria-label='Next site in UofT Webring'>→</a>
           </div>
           <div className="flex space-x-2">
             <a href="https://www.linkedin.com/in/oliver-kwun-morfitt/" target="_blank" rel="noopener noreferrer" className="underline">linkedin</a>
