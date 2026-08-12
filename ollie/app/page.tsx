@@ -21,16 +21,16 @@ export default function Home() {
               <span>I&apos;m a student at UofT studying <span className="italic">Computer Science</span> and <span className="italic">Statistics</span>.</span>
             </p>
             <p className="font-serif text-md">
-              I like building scalable systems for inference. I&apos;m currently interested in inference and scaling ML systems. Seeking winter 2027 internships.
+              I like building scalable systems for inference. I&apos;m currently interested in inference, scaling ML systems, and LLM modularity, including serving modular LLMs. Seeking summer 2027 internships and part time research opportunities.
             </p>
             <p className="font-serif text-md">
               Rock climber who grade chases on the moonboard 🌙 in my free time. Currently climbing around V9 level. Goal of climbing V10 before I graduate.
             </p>
-            <Link href={'/climbing'} className="italic text-sm">video of me climbing 🧗</Link>
             <Link href={'/notes'} className="italic text-sm">notes</Link>
             <p>
             email me: oliverkwunmorfitt[at]gmail[dot]com
             </p>
+            <Link href={'/climbing'} className="italic text-sm underline">[click me] School&apos;s Out, V9 on the 2016 Moonboard 🧗</Link>
           </div>
 
           <div className="w-full lg:flex-1 flex flex-col space-y-16 lg:pt-40">
@@ -40,7 +40,7 @@ export default function Home() {
                 <h2 className="text-md italic">Experience</h2>
               </div>
                 <Experience
-                  title="ML/AI Scientist Intern"
+                  title="Machine Learning Engineer Intern"
                   company="RBC Borealis"
                   technologies="probably python"
                   description="Learning to build ML at scale."

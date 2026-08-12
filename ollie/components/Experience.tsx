@@ -21,6 +21,7 @@ export default function Experience({title, company, technologies, description, s
                 alt={company}
                 width={60}
                 height={60}
+                className="rounded-md"
             />
         </div>
   </div>
